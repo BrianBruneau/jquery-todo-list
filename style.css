@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url('http://www.fredsullivan.com/wp-content/uploads/2014/04/cup_of_coffee_2-2560x1600.jpg');
+  background-size: cover;
+  background-color: #333;
+  background-repeat: no-repeat;
+}
+
+#input_slot {
+  padding: 10px;
+  border-width: 6px;
+  border-color: gold;
+}
+
+#add_to_list {
+  font-size: 25px;
+}
+
+#list_container {
+  position: relative;
+  height: 50%;
+  text-align: center;
+}
+
+#form_space {
+  position: relative;
+  height: 50%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#list_form {
+  height: 100px;
+  padding-top: 40px;
+}
+
+ul {
+    padding: 0;
+    margin-left: 55px;
+    display: table;
+    border-spacing: .3em;
+}
+li {
+    list-style: none;
+    display: table-row;
+    color: white;
+    margin-right: 2px;
+    font-family: fantasy;
+    text-decoration: underline;
+    font-size: 22px;
+  }
+
+.del {
+  margin-left: 25px;
+  border-image: url('http://www.sareentax.com/wp-content/uploads/2015/04/X.png');
+  border-image-width: 8px;
+  background-color: white;
+}
+
+
